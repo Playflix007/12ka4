@@ -4,7 +4,7 @@ include "config.php";
 
 $id = $_GET['id'] ?? exit("Error: ID not provided.");
 $cacheFile = $cacheFolder . "/$id.es";
-$api = "https://babel-in.xyz/$apikey/tata/key/$id";
+$api = "https://babel-in.xyz/$babel-b2ef9ad8f0d432962d47009b24dee465/tata/key/$id";
 $userAgent = 'Babel-IN'; // u can change if u wanna
 
 // chk if cache exist
